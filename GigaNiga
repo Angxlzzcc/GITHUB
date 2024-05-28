@@ -3,8 +3,8 @@ local whitelist = {
 ["User1"] = true,
     ["User2"] = true,
     ["User3"] = true,
-    ["User4"] = true,
-    ["xx"] = true,  -- Can Put More than 1000 user
+    ["NllbYOOOOO"] = true,
+    ["xLuci00x"] = true,  -- Can Put More than 1000 user
 }
 
 -- Function to check if a player is whitelisted
@@ -304,6 +304,18 @@ MainTab:AddButton({
 	Name = "Camlock",
 	Callback = function()
       		loadstring(game:HttpGet("https://pastebin.com/raw/PmWCzpgr"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+MainTab:AddButton({
+	Name = "Mage Animation",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/wRREF74z"))()
   	end    
 })
 
