@@ -324,5 +324,17 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 
+MainTab:AddButton({
+	Name = "Paid Resolver",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/7EZ9rZYu"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
     end
 end
